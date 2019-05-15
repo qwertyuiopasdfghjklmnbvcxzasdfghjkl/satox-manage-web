@@ -795,7 +795,8 @@ export const monitoring = {
     cwfssj: 'error time',
     ywid: 'business id',
     ywb: 'activity table',
-    wbfwdz: 'external service address'
+    wbfwdz: 'external service address',
+    tbqks: ' sync block number'
 }
 export const fund = {
     lqbsz: 'cold wallet setting',
