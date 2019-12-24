@@ -936,7 +936,7 @@ export const nav = {
     dzgl: '地址管理',
     czgl: '充值管理',
     tbsh: '提币审核',
-    ussdyhzl: 'USSD银行资料',
+    ussdyhzl: 'USDT银行资料',
     ussdtxjl: 'USDT提现记录',
     satotxjl: 'SATO提现记录',
     yhzc: '用户资产',
