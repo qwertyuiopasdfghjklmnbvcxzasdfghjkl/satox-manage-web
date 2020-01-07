@@ -148,6 +148,7 @@ export const login = {
     xxzx: '消息中心'
 };
 export const finance = {
+    hzid: '划转ID',
     tbsh: '提币审核',
     rtbtj: '日提币统计',
     glbz: '公链币种',
