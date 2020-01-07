@@ -14,6 +14,18 @@ const findFailWithdrawApplyList = function (curPage, data, success, error) {
 };
 monitoring.findFailWithdrawApplyList = findFailWithdrawApplyList;
 
+// 提现失败 /monitor/withdrawApply/updateWaitingWithdrawStatus   
+const updateWaitingWithdrawStatus = function (data, success, error) {
+    api.post(`api/bm/monitor/withdrawApply/updateWaitingWithdrawStatus`, data, (res) => {
+        if (res.rst === 1) {
+            success && success(res);
+        } else {
+            error && error(res.msg);
+        }
+    }, error);
+};
+monitoring.updateWaitingWithdrawStatus = updateWaitingWithdrawStatus;
+
 // 提现记录列表
 const findAllWithdrawApplyList = function (curPage, data, success, error) {
     api.post(`api/bm/monitor/withdrawApply/findAllWithdrawApplyList/10/${curPage}`, data, (res) => {

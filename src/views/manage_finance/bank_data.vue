@@ -2,7 +2,7 @@
     <Row>
         <Card>
             <p slot="title">
-                USSD{{$t('finance.yhkxxjlgl')}}
+                USDT{{$t('finance.yhkxxjlgl')}}
                 <span class="refresh" @click="getList"></span>
             </p>
             <Row>

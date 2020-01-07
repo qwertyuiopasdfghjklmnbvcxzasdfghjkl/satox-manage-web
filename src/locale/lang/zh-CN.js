@@ -148,6 +148,7 @@ export const login = {
     xxzx: '消息中心'
 };
 export const finance = {
+    hzid: '划转ID',
     tbsh: '提币审核',
     rtbtj: '日提币统计',
     glbz: '公链币种',
@@ -936,7 +937,7 @@ export const nav = {
     dzgl: '地址管理',
     czgl: '充值管理',
     tbsh: '提币审核',
-    ussdyhzl: 'USSD银行资料',
+    ussdyhzl: 'USDT银行资料',
     ussdtxjl: 'USDT提现记录',
     satotxjl: 'SATO提现记录',
     yhzc: '用户资产',
