@@ -124,7 +124,7 @@
                     page: this.curPage1,
                     size: this.size
                 };
-                financeApi.statisticList(data, (res, total) => {
+                financeApi.virtualRechargeRecordStatistics(data, (res, total) => {
                     this.data1 = res;
                     this.total1 = total;
                 }, (msg) => {

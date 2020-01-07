@@ -355,6 +355,18 @@ const statisticList = function (data, success, error) {
 };
 finance.statisticList = statisticList;
 
+// SATO USSD充值统计2 virtualRechargeRecordStatistics
+const virtualRechargeRecordStatistics = function (data, success, error) {
+    api.get(`api/bm/account/transfer/virtualRechargeRecordStatistics`, data, (res) => {
+        if (res.rst === 1) {
+            success && success(res.data, res.total);
+        } else {
+            error && error(res.msg);
+        }
+    }, error);
+};
+finance.virtualRechargeRecordStatistics = virtualRechargeRecordStatistics;
+
 // SATO USSD 第三方充值
 const outerList = function (data, success, error) {
     api.get(`api/bm/account/transfer/outer`, data, (res) => {
