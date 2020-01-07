@@ -7,7 +7,7 @@ import store from 'vuex';
 
 let util = {};
 util.title = function (title) {
-    title = title || 'iView admin';
+    title = title || 'SatoX Admin';
     window.document.title = title;
 };
 
