@@ -70,7 +70,7 @@
                 total: 0,
                 curPage1: 1,
                 total1: 0,
-                size: 1,
+                size: 10,
                 columns: [
                     {title: this.$t('common.cjsj'), key: 'createdAt'},
                     {title: this.$t('finance.hzid'), key: 'transferId'},
