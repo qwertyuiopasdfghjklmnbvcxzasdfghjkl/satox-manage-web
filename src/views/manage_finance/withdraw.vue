@@ -64,12 +64,14 @@
                 columns: [
                     {key: 'createdTime', title: this.$t('common.cjsj')},
                     {key: 'userName', title: this.$t('common.yhm')},
-                    {
-                        key: 'withdrawAmount', title: this.$t('finance.txje'),
-                        render: (h, params) => {
-                            return h('div', [params.row.withdrawAmount, params.row.symbol]);
-                        }
-                    },
+                    // {
+                    //     key: 'withdrawAmount', title: this.$t('finance.txje'),
+                    //     render: (h, params) => {
+                    //         return h('div', [params.row.withdrawAmount, params.row.symbol]);
+                    //     }
+                    // },
+                    {key: 'withdrawAmount', title: this.$t('finance.txje')},
+                    {key: 'symbol', title: this.$t('common.bz')},
                     {key: 'withdrawUsdAmount', title: this.$t('exchange.gzusd')},
                     {key: 'phoneNumber', title: this.$t('common.dh')},
                     {key: 'toAddress', title: this.$t('finance.mbdz')},
